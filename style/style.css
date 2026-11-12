@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+    color: #4a4a4a;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    grid-template-rows: 1fr, auto;
+    grid-template-areas: 
+                "sidebar grade"
+                "sidebar footer";
+}
+
+.sidebar { grid-area: sidebar;}
+.grade { grid-area: grade;}
+.footer { grid-area: footer;}
+
+.sidebar {
+    
+}
